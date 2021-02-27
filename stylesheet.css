@@ -2,7 +2,11 @@
     background-color: #ebb94d;
 }
 
-.color2 {
+.color2a {
+    background-color: #da6b64;
+}
+
+.color2b {
     background-color: #d84940;
 }
 
@@ -23,6 +27,10 @@ header {
     width: 1170px;
     display: flex;
     justify-content: space-between;
+}
+
+.header-text {
+    margin-top: 5px;
 }
 
 .left-side {

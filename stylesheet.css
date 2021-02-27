@@ -40,3 +40,14 @@ header {
 .header-logo img {
     width: 128px;
 }
+
+.contact-btn :hover {
+    background-color: #d84940;   
+}
+
+.contact-btn {
+    color: white;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 20px;
+}

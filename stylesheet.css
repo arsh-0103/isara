@@ -13,3 +13,22 @@
 .color4 {
     background-color: #016ea9;
 }
+
+header {
+
+}
+
+.header-contents {
+    margin: 10px auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display:flex;
+}
+
+.header-logo img {
+    width: 128px;
+}

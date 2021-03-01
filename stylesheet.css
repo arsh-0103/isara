@@ -112,7 +112,7 @@ header {
 
 
 .position-setter-4 {
-    height:400px;
+    height:600px;
 }
 
 .back-4 {
@@ -138,6 +138,35 @@ header {
 }
 
 .text-4 {
+    text-align: center;
+}
+
+.skills {
+    width: 1170px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    
+}
+
+.engineer-skill {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center
+}
+
+.skill-icon {
+    padding: 10px;
+    font-size: 12px;
     text-align: center;
 }
 

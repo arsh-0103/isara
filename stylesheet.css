@@ -22,6 +22,10 @@ body {
     background-color: #016ea9;
 }
 
+.color5 {
+    background-color:#fef5e0;
+}
+
 
 
 header {
@@ -236,5 +240,36 @@ header {
 }
 
 .under-text-7 {
+    text-align: center;
+}
+
+
+.text-8 {
+    text-align: center;
+}
+
+.merits-8 {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    
+}
+
+.merit {
+    margin: 40px;
+    width: 350px;
+}
+
+.support-box {
+    text-align: center;
+    width: 1170px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.under-text-8 {
     text-align: center;
 }

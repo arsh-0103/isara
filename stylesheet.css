@@ -22,7 +22,7 @@ body {
     background-color: #016ea9;
 }
 
-<!-- ヘッダー -->
+
 
 header {
     position: fixed;
@@ -61,7 +61,7 @@ header {
     border-radius: 20px;
 }
 
-<!-- 資料請求促進その１ -->
+
 
 .back-1 {
     background-image: url(../isara/img/main.jpg);
@@ -76,7 +76,7 @@ header {
     padding-top: 120px;
 }
 
-<!-- エンジニアとして本当の自由を手に入れるには -->
+
 
 .position-setter-2 {
     margin-top: -20px;
@@ -94,7 +94,7 @@ header {
     text-align: center;
 }
 
-<!-- isaraとは -->
+
 
 .back-3 {
     background-image: url(../isara/img/introbottom.jpg);
@@ -106,6 +106,38 @@ header {
 
 .text-3 {
     padding: 40px 0;
+    text-align: center;
+}
+
+
+
+.position-setter-4 {
+    height:400px;
+}
+
+.back-4 {
+    background-color:#fef5e0;
+}
+
+.about {
+    position: relative;
+    top: -40px;
+}
+
+.circle-4 {
+    color: #fff;
+    background-color: #ebb94d;
+    padding: 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+
+.text-4 {
     text-align: center;
 }
 

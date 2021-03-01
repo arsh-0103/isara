@@ -273,3 +273,50 @@ header {
 .under-text-8 {
     text-align: center;
 }
+
+
+
+.wrapper-9 {
+    color: #fff;
+}
+
+.position-setter-9 {
+    height: 700px;
+}
+
+.back-9 {
+    background-image: url(../isara/img/teacherbg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.text-9 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.founders-9 {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.member-9 {
+    width: 350px;
+    border: 3px solid white;
+    height: 450px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.member-9 img {
+    margin-top: -80px;
+    border-radius: 50%;  
+    width: 150px;  
+    height: 150px; 
+}
+
+.member-intro-9 {
+    margin: 20px;
+}

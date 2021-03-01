@@ -345,3 +345,27 @@ header {
 
 
 
+.text-11 {
+    text-align: center;
+}
+
+.thirdparties {
+
+}
+
+.party-11 {
+    display: flex;
+    margin: 40px 25%;
+}
+
+.party-11 img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #ebb94d;
+}
+
+.party-intro-11 {
+    margin: 10px 15px;
+}
+
+

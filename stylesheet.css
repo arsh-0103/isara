@@ -414,6 +414,10 @@ header {
     color: #fff;
 }
 
+.position-setter-14 {
+    margin-bottom: 50px;
+}
+
 .title-14 {
     text-align: center;
 }
@@ -448,4 +452,18 @@ header {
 
 .flow-chain-14 {
     text-align: center;
+}
+
+
+
+.back-15 {
+    background-image: url(../isara/img/bangkokbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.text-15 {
+    color: #fff;
+    margin: 0 250px;
 }

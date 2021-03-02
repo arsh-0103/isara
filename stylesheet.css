@@ -550,3 +550,29 @@ header {
     color: #fff;
     text-align: center;
 }
+
+
+
+.position-setter-18 {
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+
+.text-18 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.someya-speach {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.speaching-18 {
+    width: 200px;
+    height: 160px;
+}
+

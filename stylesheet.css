@@ -349,9 +349,6 @@ header {
     text-align: center;
 }
 
-.thirdparties {
-
-}
 
 .party-11 {
     display: flex;
@@ -369,3 +366,44 @@ header {
 }
 
 
+.back-12 {
+    background-image: url(../isara/img/classbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-12 {
+    text-align: center;
+    color:white;
+}
+
+.studies {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.study-box {
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    margin: 0 20px;
+    border: 2px solid #016ea9;
+    border-radius: 2px;
+}
+
+.timing-study {
+    color: #fff;
+    margin-top: 0;
+    background-color: #016ea9;
+    padding: 20px;
+}
+
+.list-12 {
+    margin: 0%;
+}
+
+.study-box ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #e5e5e5;
+}

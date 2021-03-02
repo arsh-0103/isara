@@ -22,6 +22,10 @@ body {
     background-color: #016ea9;
 }
 
+.color5 {
+    background-color: #f7c23c;
+}
+
 
 
 header {
@@ -466,4 +470,60 @@ header {
 .text-15 {
     color: #fff;
     margin: 0 250px;
+}
+
+
+.position-setter-16 {
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+
+.text-16 {
+    text-align: center;
+}
+
+
+
+.present-title {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: -40px;
+    margin-left:auto ;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #f7c23c;
+    z-index: 8;
+}
+
+.present-box {
+    margin: 0 auto;
+    
+}
+
+.present-line {
+    border: solid 2px white;
+    padding: 40px;
+    width: 80%;
+    margin-top: 40px;
+    margin: 0 auto;
+    z-index: 4;
+}
+
+.present-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    
+}
+
+.present-16 {
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 50px 40px 50px;
 }

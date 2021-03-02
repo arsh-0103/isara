@@ -22,10 +22,6 @@ body {
     background-color: #016ea9;
 }
 
-.color5 {
-    background-color:#fef5e0;
-}
-
 
 
 header {
@@ -416,4 +412,40 @@ header {
 .text-13 {
     text-align: center;
     color: #fff;
+}
+
+.title-14 {
+    text-align: center;
+}
+
+.flow-img-14 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.flow-intro {
+    display: flex;
+    background-color: #fef5e0;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: -7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.flow-icon-14 {
+    text-align: center;
+}
+
+.icon-position {
+    margin: 30px;
+}
+
+.icon-text-14 p {
+    margin: 3px 0;
+}
+
+.flow-chain-14 {
+    text-align: center;
 }

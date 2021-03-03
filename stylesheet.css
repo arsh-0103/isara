@@ -27,6 +27,20 @@ body {
 }
 
 
+.font-size-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.font-size-emp {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+
+
+
 
 header {
     position: fixed;
@@ -43,8 +57,8 @@ header {
 }
 
 .header-text {
-    margin-top: 12px;
-    font-size: 12px;
+    margin-top: 8px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -81,12 +95,25 @@ header {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 420px;
 }
 
 .text-1 {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 165px;
+}
+
+.text-1 p {
+        margin: 0 0 10px;
+}
+
+.text-1b {
+    margin-bottom: -10px;
+}
+
+.logo-1 {
+    width: 317px;
+    margin-bottom: 20px;
 }
 
 

@@ -386,6 +386,7 @@ header {
 }
 
 
+
 .text-8 {
     text-align: center;
 }
@@ -398,8 +399,17 @@ header {
 }
 
 .merit {
-    margin: 40px;
-    width: 350px;
+    margin: 20px;
+    width: 340px;
+}
+
+.merit img {
+    width: 340px;
+}
+
+.topics-8 {
+    color: #ebb94d;
+    margin-top: 0px;
 }
 
 .support-box {
@@ -412,8 +422,14 @@ header {
     border-radius: 5px;
 }
 
+.support-text-8 {
+    font-weight: 600;
+}
+
 .under-text-8 {
     text-align: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
 }
 
 

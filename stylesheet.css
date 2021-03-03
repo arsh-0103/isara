@@ -175,15 +175,20 @@ header {
 }
 
 .title-3 {
-    position: relative;
-    width: 860px;
-    margin: 0 auto ;
 }
 
-.title-3::before {
+.in-orange-box {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 30px;
+}
+
+.in-orange-box::before {
     content: "";
-    top: -30px;
-    left: 30px;
+    top: 0;
+    left: 0px;
     border-top: 4px solid #ebb94d;
     border-left: 4px solid #ebb94d;
     width: 50px;
@@ -192,10 +197,10 @@ header {
     box-sizing: border-box;
 }
 
-.title-3::after {
+.in-orange-box::after {
     content: "";
-    bottom: -30px;
-    right: 30px;
+    bottom: 0px;
+    right: 0px;
     border-bottom: 4px solid #ebb94d;
     border-right: 4px solid #ebb94d;
     width: 50px;
@@ -217,7 +222,7 @@ header {
 
 
 .position-setter-4 {
-    height:600px;
+    padding-bottom: 50px;
 }
 
 .back-4 {
@@ -244,6 +249,7 @@ header {
 
 .text-4 {
     text-align: center;
+    position: relative;
 }
 
 .skills {

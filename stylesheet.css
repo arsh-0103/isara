@@ -720,6 +720,13 @@ header {
     margin: 0 250px;
 }
 
+.text-15 p {
+    padding:5px 0 ;
+}
+
+.text-15 li {
+    padding: 8px;
+}
 
 .position-setter-16 {
     margin-top: -20px;

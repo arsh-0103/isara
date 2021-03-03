@@ -174,9 +174,6 @@ header {
     text-align: center;
 }
 
-.title-3 {
-}
-
 .in-orange-box {
     margin: 0 auto;
     position: relative;
@@ -222,7 +219,7 @@ header {
 
 
 .position-setter-4 {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .back-4 {
@@ -283,8 +280,10 @@ header {
 
 
 
+
 .position-setter-5 {
-    margin-top: -20px;
+    margin-top: -30px;
+    padding-top: 20px;
 }
 
 .back-5 {
@@ -300,6 +299,10 @@ header {
     text-align: center;
 }
 
+.text-5 span {
+    color: #f7c23c;
+}
+
 .steps-5 {
     display: flex;
     justify-content: center; 
@@ -309,9 +312,27 @@ header {
 .step-box {
     text-align: center;
     background-color: #fff;
-    padding: 30px 40px;
+    padding: 14px 30px 24px;
     margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+    font-weight: 600;
 }
+
+.step-belt {
+    color: #fff;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #ebb94d;
+    border-radius: 5px;
+}
+
+.step-time {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
 
 
 .position-setter-6 {

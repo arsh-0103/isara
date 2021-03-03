@@ -336,19 +336,21 @@ header {
 
 
 .position-setter-6 {
-    margin-top: -20px;
 }
 
 .back-6 {
     background-color: #016ea9;
-    height: 100px;
-    width: 100%;
 }
 
 .text-6 {
     color: #fff;
     text-align: center;
-    margin: ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-6 span {
+    color: #ebb94d;
 }
 
 

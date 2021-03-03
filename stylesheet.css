@@ -43,7 +43,9 @@ header {
 }
 
 .header-text {
-    margin-top: 5px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .left-side {
@@ -61,8 +63,15 @@ header {
 .contact-btn {
     color: white;
     cursor: pointer;
-    padding: 2px 8px;
-    border-radius: 20px;
+    padding: 12px 45px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+
+.contact-btn p {
+    margin: 0%;
 }
 
 

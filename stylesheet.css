@@ -553,6 +553,10 @@ header {
     text-align: center;
 }
 
+.evidence-11 {
+    font-weight: 600;
+}
+
 
 .party-11 {
     display: flex;
@@ -567,6 +571,13 @@ header {
 
 .party-intro-11 {
     margin: 10px 15px;
+    font-size: 18px;
+    color: #777777;
+}
+
+.name-11 {
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 

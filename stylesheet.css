@@ -40,6 +40,23 @@ body {
 }
 
 
+.scroll-btn {
+    cursor: pointer;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    background-color: #ececec;
+    padding: 2px 24px;
+}
+
+.font-awesome-color {
+    color: #777777;
+}
+
+.fa-angle-up {
+    font-size: 30px;
+}
+
 
 
 
@@ -48,7 +65,7 @@ header {
     z-index: 10;
     background: white;
     width: 100%;
-    margin-top: -16px;
+    padding-top:10px ;
 }
 
 .header-contents {

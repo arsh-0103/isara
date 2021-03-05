@@ -864,6 +864,8 @@ header {
 
 .text-19 {
     text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
 }
 
 
@@ -875,4 +877,27 @@ header {
 
 .btn-19 {
     text-align: center;
+}
+
+
+
+
+
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+.back-f {
+    background-color: #e5e5e5;
+}
+
+.text-footer {
+    padding: 30px 0;
+}
+
+.under-footer {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
 }

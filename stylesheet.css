@@ -764,7 +764,7 @@ header {
 }
 
 .present-box {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     
 }
 
@@ -821,6 +821,7 @@ header {
 .text-17a {
     color: #fff;
     text-align: center;
+    padding: 60px;
 }
 
 .text-17b {

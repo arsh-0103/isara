@@ -91,6 +91,8 @@ header {
 
 
 
+
+
 .back-1 {
     background-image: url(../isara/img/main.jpg);
     background-position: center;
@@ -451,10 +453,18 @@ header {
 
 .text-9 {
     text-align: center;
+    margin: 0 auto 100px;
     padding-top: 60px;
-    margin-bottom: 100px;
     font-weight: 600;
 }
+
+.icon-title {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
 
 .founders-9 {
     display: flex;
@@ -742,6 +752,7 @@ header {
 }
 
 .free-16 {
+    text-align: center;
     font-weight: 600;
 }
 
@@ -871,7 +882,8 @@ header {
 
 
 .position-setter-19 {
-    
+    text-align: center;
+    font-weight: 600;
 }
 
 .form-19 {
@@ -932,6 +944,11 @@ header {
 footer {
     font-size: 10px;
     text-align: center;
+}
+
+footer a {
+        color: #337ab7;
+        text-decoration: none;
 }
 
 .back-f {

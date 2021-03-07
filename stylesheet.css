@@ -40,7 +40,7 @@ body {
 }
 
 
-.scroll-btn {
+#scroll-btn {
     cursor: pointer;
     position: fixed;
     bottom: 90px;
@@ -100,7 +100,7 @@ header {
     font-size: 14px;
     font-weight: 300;
     border-radius: 25px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .contact-btn p {

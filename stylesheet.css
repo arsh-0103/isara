@@ -49,6 +49,8 @@ body {
     padding: 2px 24px;
 }
 
+
+
 .font-awesome-color {
     color: #777777;
 }
@@ -954,6 +956,22 @@ header {
     margin: 40px 0 60px 0;
 }
 
+
+.title-20 {
+    display: flex;
+    justify-content: center; 
+}
+
+.question-board{
+    display: flex;
+    justify-content: center; 
+}
+
+.question-part {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
 
 
 

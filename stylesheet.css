@@ -979,6 +979,12 @@ header {
     justify-content: center; 
 }
 
+.fa-envelope-open {
+    margin-top: 28px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
 .question-board {
     margin: 10px 0;
 }
@@ -1012,6 +1018,9 @@ header {
 }
 
 .answer {
+    margin: 0 auto;
+    width: 95%;
+    font-weight: 600;
     display: none;
 }
 

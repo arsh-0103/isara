@@ -505,7 +505,7 @@ header {
     border: 3px solid white;
     height: 450px;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0px 20px 40px;
 }
 
 .member-9 img {
@@ -788,6 +788,9 @@ header {
     color: #fff;
 }
 
+.fa-gift {
+    margin-top: -10px;
+}
 
 .present-title {
     position: relative;
@@ -845,6 +848,7 @@ header {
     font-size: 18px;
     color: #ebb94d;
 }
+
 
 
 .position-setter-17 {

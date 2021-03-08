@@ -3,10 +3,10 @@ $(function(){
 
     $(window).scroll(function(){
         if($(this).scrollTop() > 100) {
-            $('#scroll-btn').fadeIn(100);
+            $('#scroll-btn').fadeIn(600);
         }
         else {
-            $('#scroll-btn').fadeOut(100);
+            $('#scroll-btn').fadeOut(600);
         }
     });
 

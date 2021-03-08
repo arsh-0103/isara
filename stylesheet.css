@@ -968,30 +968,35 @@ header {
 }
 
 
-.question-list {
-    position: relative;
-    cursor: pointer
+.question-board {
+    margin: 10px 0;
 }
 
-.question-list .question-title {
-    position: relative;
-    display: block;
-    margin: 0;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 20px;
-    border: ;
-}
+
 
 .question-title {
+    position: relative;
     border: 2px solid #e5e5e5;
     border-radius: 5px;
     padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
+
+.q-title-left {
+    display: flex;
+}
+
 
 .answer {
     display: none;
 }
+
+.q-margin {
+    margin: 1px;
+}
+
 
 .accordion-container {
     position: relative;

@@ -14,6 +14,10 @@ $(function(){
     $('html, body').animate({ 'scrollTop': 0 }, 500,'swing');
    });
 
+   $('.scroll-down-btn').click(function(){
+       var position = $('.scroll-point').offset().top;
+    $('html, body').animate({ 'scrollTop': position }, 500,'swing');
+   });
 
 
    $('.js-question-title').on('click',function(){

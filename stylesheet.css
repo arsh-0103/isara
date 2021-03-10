@@ -979,6 +979,8 @@ header {
     justify-content: center; 
 }
 
+
+
 .fa-envelope-open {
     margin-top: 28px;
     margin-right: 5px;
@@ -1009,6 +1011,11 @@ header {
 
 .q-title-left p {
     margin: 0px;
+}
+
+.q-title-left span {
+    display:block;
+    text-decoration:none;
 }
 
 .fa-question-circle {

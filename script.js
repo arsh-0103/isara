@@ -11,17 +11,17 @@ $(function(){
     });
 
     $("#scroll-btn").click(function () {
-    $('html, body').animate({ 'scrollTop': 0 }, 500,'swing');
+    $('html, body').animate({ 'scrollTop': 0 }, 500,);
    });
 
    $('.scroll-down-btn').click(function(){
        var position = $('.scroll-point').offset().top;
-    $('html, body').animate({ 'scrollTop': position }, 500,'swing');
+    $('html, body').animate({ 'scrollTop': position }, 500);
    });
 
 
    $('.js-question-title').on('click',function(){
-    $(this).next().slideToggle(200);
+    $(this).next().slideToggle(200,);
   });
 
 

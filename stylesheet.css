@@ -189,6 +189,7 @@ header {
 }
 
 .sns-btns {
+    display: flex;
    padding-bottom: 40px;
    justify-content: center; 
    align-items: flex-start;

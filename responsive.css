@@ -56,6 +56,35 @@
     }
 
 
+    .merits-8 {
+        width: 87%;
+    }
+
+    .merit {
+        margin: 20px;
+        width: 32%;
+    }
+    
+    .merit img {
+        height: 180px;
+    }
+
+    .support-box {
+        width: 87%;
+    }
+
+    .thirdparties {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+    .party-11 {
+        margin: 40px 0 ;
+        width: 70%;
+    }
+
+
 
 
 }

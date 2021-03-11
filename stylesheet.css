@@ -466,16 +466,18 @@ header {
     display: flex;
     justify-content: center; 
     align-items: flex-start;
+    width: 77%;
+    margin: 0 auto;
     
 }
 
 .merit {
     margin: 20px;
-    width: 340px;
+    width: 350px;
 }
 
 .merit img {
-    width: 340px;
+    height: 180px;
 }
 
 .topics-8 {
@@ -485,7 +487,7 @@ header {
 
 .support-box {
     text-align: center;
-    width: 70%;
+    width: 77%;
     margin: 30px auto;
     padding: 30px;
     background-color: #fff;
@@ -504,7 +506,7 @@ header {
 .under-text-8 {
     text-align: center;
     margin-top: 40px;
-    padding-bottom: 50px;
+    padding:0 40px 50px;
 }
 
 
@@ -561,6 +563,10 @@ header {
 
 .member-intro-9 {
     margin: 20px;
+}
+
+.text-left-path {
+    text-align: left;
 }
 
 
@@ -648,12 +654,12 @@ header {
 
 .party-11 {
     display: flex;
-    margin: 40px 25%;
+    margin: 40px 360px;
 }
 
 .party-11 img {
-    height: 250px;
-    width: 250px;
+    height: 245px;
+    width: 245px;
     border: 3px solid #ebb94d;
 }
 
@@ -661,6 +667,10 @@ header {
     margin: 10px 15px;
     font-size: 18px;
     color: #777777;
+}
+
+.party-intro-11 span {
+    font-style: italic;
 }
 
 .name-11 {

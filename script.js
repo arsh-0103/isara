@@ -22,6 +22,7 @@ $(function(){
 
    $('.js-question-title').on('click',function(){
     $(this).next().slideToggle(200,);
+    $(this).find('.fa-chevron-down').toggleClass('q-open');
   });
 
 

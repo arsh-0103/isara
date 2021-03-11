@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) and (max-width: 1190px) {
+
+    *{box-sizing: border-box;}
+
+
+    .font-size-title {
+        font-size: 24px;
+    }
+    
+    .font-size-emp {
+        font-size: 16px;
+    }
+
+    .font-size-small {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .header-contents {
+        width: 98%;
+    }
+
+
+    .back-1 {
+        height: 500px;
+    }
+}

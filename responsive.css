@@ -12,12 +12,17 @@
     }
 
     .font-size-small {
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0;
+    }
+
+    .font-size-xs {
+        font-size: 12px;
     }
 
     .header-contents {
         width: 98%;
+        letter-spacing: 0;
     }
 
 
@@ -35,7 +40,20 @@
     }
 
 
-    
+    .skills {
+        width: 94%;
+    }
+
+
+    .steps-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+    .step-box {
+        width: 36%;
+    }
 
 
 

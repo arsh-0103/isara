@@ -40,6 +40,10 @@ body {
 }
 
 .font-size-small {
+    font-size: 16px;
+}
+
+.font-size-xs {
     font-size: 14px;
 }
 
@@ -275,7 +279,7 @@ header {
 
 
 .position-setter-4 {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 .back-4 {
@@ -306,7 +310,7 @@ header {
 }
 
 .skills {
-    width: 1170px;
+    width: 78.5%;
     margin: 30px auto;
     padding: 30px;
     background-color: #fff;
@@ -322,7 +326,7 @@ header {
 }
 
 .icons-4 {
-    padding-top: 60px;
+    padding-top: 20px;
     display: flex;
     justify-content: center; 
     align-items: center
@@ -347,7 +351,6 @@ header {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
 }
 
 .text-5 {
@@ -363,12 +366,13 @@ header {
     display: flex;
     justify-content: center; 
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .step-box {
     text-align: center;
     background-color: #fff;
-    padding: 14px 30px 24px;
+    padding: 14px 37px 14px;
     margin: 10px;
     border-radius: 5px;
     width: 300px;
@@ -410,6 +414,9 @@ header {
 }
 
 
+.position-setter-7 {
+    padding-top: 20px;
+}
 
 .text-7 {
     text-align: center;

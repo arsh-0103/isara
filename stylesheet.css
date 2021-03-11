@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    letter-spacing: 0.1em
+    letter-spacing: 0.13em
 }
 
 .color1 {
@@ -240,8 +240,8 @@ header {
 
 .in-orange-box::before {
     content: "";
-    top: 0;
-    left: 0px;
+    top: 15px;
+    left: 30px;
     border-top: 4px solid #ebb94d;
     border-left: 4px solid #ebb94d;
     width: 50px;
@@ -252,8 +252,8 @@ header {
 
 .in-orange-box::after {
     content: "";
-    bottom: 0px;
-    right: 0px;
+    bottom: 15px;
+    right: 30px;
     border-bottom: 4px solid #ebb94d;
     border-right: 4px solid #ebb94d;
     width: 50px;

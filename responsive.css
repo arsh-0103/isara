@@ -36,7 +36,8 @@
     }
 
     .text-2a {
-        margin: 0 auto 10px;
+        font-size: 16px;
+        font-weight: 500;
     }
 
 
@@ -166,6 +167,7 @@
     }
 }
 
+
 @media screen and (max-width: 768px) {
 
     *{box-sizing: border-box;}
@@ -260,6 +262,10 @@
 
     }
 
+    .phone-btn-1 {
+        display: block;
+    }
+
     .phone-btn-text {
         color: #fff;
         font-size: 12px;
@@ -274,6 +280,84 @@
         color: #fff;
         font-size: 24px;
         padding-top: 10px;
+    }
+
+
+    .back-1 {
+        height: 380px;
+    }
+
+    .text-1 {
+        vertical-align: top;
+    }
+
+    .text-2a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .slider-btn {
+        width: 85%;
+    }
+
+    .br-phone {
+        display: block;
+    }
+
+
+    .title-3 p {
+        line-height: 200%;
+    }
+
+    .in-orange-box {
+        margin: 0 auto;
+        position: relative;
+        max-width: calc(100% - 40px);
+    }
+
+    .in-orange-box::before {
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+
+    }
+    
+    .in-orange-box::after {
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .back-3 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+    }
+
+    .text-3 {
+        padding-bottom: 25px ;
+    }
+
+    .text-3b {
+        padding: 0 0 30px;
+
+    }
+
+    .text-3b  p {
+        margin: 0 0 30px;
+    }
+
+    .about {
+        top: -30px;
+    }
+
+    .circle-4 {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        letter-spacing: 2px;
     }
 
 

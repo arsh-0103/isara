@@ -760,7 +760,14 @@ header {
 
 .flow-img-14 {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px auto;
+}
+
+.flow-img-14 img {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
 }
 
 .flow-intro {

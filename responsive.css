@@ -111,6 +111,33 @@
     .present-setter-16 {
         padding: 0 30px ;
     }
+    
+    .someya-speach {
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        margin: 40px auto;
+        width: 90%;
+    }
+
+    .form-19 {
+        width: 70%;
+    }
+
+    .form-19 input {
+        padding: 25px;
+    }
+
+    .submit-btn-19 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 10px 30%;
+        border-radius: 50px;
+        border: none;
+        margin: 40px 0 60px 0;
+    }
+    
 
 
 

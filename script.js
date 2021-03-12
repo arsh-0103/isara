@@ -13,6 +13,7 @@ $(function(){
     $("#scroll-btn").click(function () {
     $('html, body').animate({ 'scrollTop': 0 }, 500,);
    });
+   
 
    $('.scroll-down-btn').click(function(){
        var position = $('.scroll-point').offset().top;

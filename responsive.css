@@ -211,7 +211,7 @@
 
 
     .header-base {
-        height: 60px;
+        height: 62px;
     }
 
     header {
@@ -250,6 +250,30 @@
     
     .contact-btn {
         display: none;
+    }
+
+    .right-side {
+        height: 62px;
+        width: 80px;
+        text-align: center;
+        background-color: #da6b64;
+
+    }
+
+    .phone-btn-text {
+        color: #fff;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:0 auto ;
+        
+    }
+
+    .fa-file-alt {
+        color: #fff;
+        font-size: 24px;
+        padding-top: 10px;
     }
 
 

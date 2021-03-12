@@ -104,7 +104,37 @@
         margin-left: 80px;
     }
 
+    .present-line {
+        width: 95%;
+    }
+
+    .present-setter-16 {
+        padding: 0 30px ;
+    }
 
 
 
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .present-title {
+        width: 40%;
+    }
+
+    .present-line {
+        width: 60%;
+    }
+
+    .present-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    .present-setter-16 {
+        padding: 50px ;
+    }
 }

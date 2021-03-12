@@ -859,13 +859,11 @@ header {
 .present-title {
     position: relative;
     text-align: center;
-    width: 600px;
+    width: 50%;
     margin-top: 80px;
     margin-bottom: -40px;
     margin-left:auto ;
     margin-right: auto;
-    font-size: 24px;
-    font-weight: 600;
     background-color: #f7c23c;
     z-index: 8;
 }
@@ -878,7 +876,7 @@ header {
 .present-line {
     border: solid 2px white;
     padding: 40px;
-    width: 75%;
+    width: 1080px;
     margin-top: 40px;
     margin: 0 auto;
     z-index: 4;
@@ -891,13 +889,16 @@ header {
     
 }
 
+.present-setter-16 {
+    padding: 0 50px ;
+}
+
 .present-16 {
     background-color: #fff;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     text-align: center;
-    margin: 0 50px 40px 50px;
     position: relative;
 }
 
@@ -909,7 +910,6 @@ header {
 }
 
 .speciality-16 {
-    font-size: 18px;
     color: #ebb94d;
 }
 

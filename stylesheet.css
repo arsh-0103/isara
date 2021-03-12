@@ -1054,17 +1054,18 @@ input,  textarea {
     margin-top: 28px;
     margin-right: 5px;
     text-decoration: none;
+    color: black;
 }
 
 .question-board {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .question-title {
     position: relative;
     border: 1px solid #e5e5e5;
-    border-radius: 1px;
-    padding: 20px;
+    border-radius: 3px;
+    padding: 15px 20px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;

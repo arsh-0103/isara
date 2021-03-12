@@ -81,8 +81,20 @@
 
     .party-11 {
         margin: 40px 0 ;
-        width: 70%; 
+        width: 768px; 
     }
+
+
+    .study-box {
+        width: 270px;
+    }
+
+    .study-box ul li {
+        padding: 10px 5px;
+
+    }
+    
+    
 
 
 

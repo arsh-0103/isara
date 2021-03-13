@@ -25,6 +25,13 @@
         letter-spacing: 0;
     }
 
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 
     .back-1 {
         height: 500px;
@@ -58,27 +65,26 @@
 
     .learn-icon {
         padding:  15px;
-    }
-
-    .learn-icon img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-}
-
+    }  
 
     .merits-8 {
-        width: 87%;
-    }
-
-    .merit {
-        margin: 20px;
-        width: 32%;
+        width: 90%;
     }
     
-    .merit img {
+    .merit {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .merit img{
         height: 180px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .merit p {
+        font-size: 14px;
     }
 
     .support-box {
@@ -157,6 +163,25 @@
 }
 
 @media only screen and (max-width: 1000px) {
+
+
+
+    .merits-8 {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .merit {
+        width: 100%;
+    }
+
+    .merit .font-size-emp {
+        font-size: 16px;
+    }
+
 
     .present-title {
         width: 40%;
@@ -435,7 +460,42 @@
     .learn-icon {
         padding:  15px;
     }
+
+
+
+    .merits-8 {
+        width: 95%;
+    }
+
+    .merit p {
+        margin:10px ;
+    }
+
+    .merit img{
+        display: none;
+    }
     
+    .merit-img-set {
+        height: 120px;
+    }
+
+    .merit-back-1 {
+        background-image: url(../isara/img/learnfromfreelancer.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .merit-back-2 {
+        background-image: url(../isara/img/learnfromprojects.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .merit-back-3 {
+        background-image: url(../isara/img/actuallyfree.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 
 
 

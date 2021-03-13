@@ -474,24 +474,29 @@ header {
     display: flex;
     justify-content: center; 
     align-items: flex-start;
-    width: 77%;
+    width: 80%;
     margin: 0 auto;
-    
 }
 
 .merit {
-    margin: 20px;
-    width: 350px;
+    margin: 0 auto;
+    padding: 20px ;
+    text-align: center;
 }
 
-.merit img {
+.merit img{
     height: 180px;
+    width: 360px;
+    margin: 0 auto;
 }
+
 
 .topics-8 {
     color: #ebb94d;
     margin-top: 0px;
 }
+
+
 
 .support-box {
     text-align: center;

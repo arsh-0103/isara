@@ -537,7 +537,7 @@ header {
 
 .text-9 {
     text-align: center;
-    margin: 0 auto 200px;
+    margin: 0 auto 0px;
     padding-top: 60px;
     font-weight: 600;
 }
@@ -706,6 +706,7 @@ header {
 
 .study-enable-12 {
     margin-bottom: 10px;
+    
 }
 
 .before-ing-12 {

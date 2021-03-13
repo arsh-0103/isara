@@ -13,7 +13,7 @@ $(function(){
     $("#scroll-btn").click(function () {
     $('html, body').animate({ 'scrollTop': 0 }, 500,);
    });
-   
+
 
    $('.scroll-down-btn').click(function(){
        var position = $('.scroll-point').offset().top;
@@ -24,6 +24,13 @@ $(function(){
    $('.js-question-title').on('click',function(){
     $(this).next().slideToggle(200,);
     $(this).find('.fa-chevron-down').toggleClass('q-open');
+  });
+
+
+  $('.js-flow-icon-14').on('click',function(){
+    $(this).next().slideToggle(200,);
+    $(this).find('.fa-chevron-down').toggleClass('q-open');
+    $(this).find('.icon-text-14').toggleClass('under-14');
   });
 
 

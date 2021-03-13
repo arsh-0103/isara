@@ -633,6 +633,69 @@
         width: 96%;
         margin: 0 auto 30px;
     }
+
+    .flow-img-14 {
+        display: none;
+    }
+
+    
+    .flow-intro {
+        display: block;
+        width: 95%;
+        border-radius: 5px;
+        margin: 5px auto;
+        padding: 5px 10px;
+    }
+
+    .flow-intro
+    
+    .flow-icon-14 {
+        display: flex;
+        padding: 5px;
+        justify-content: space-between;
+    }
+
+    .flow-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .icon-position {
+        width: 35px;
+        height: 35px;
+        margin:0 ;
+    }
+    
+    .icon-text-14 p {
+        margin: 3px 10px;
+    }
+    
+    .flow-text-14 p {
+        margin: 15px 0;
+    }
+    
+    .flow-text-14 {
+        margin-left: 0px;
+        display: none;
+    }
+    
+    .flow-chain-14 {
+        display: none;
+    }
+
+    .br-pc {
+        display: none;
+    }
+
+    .flow-right .fa-chevron-down {
+        vertical-align: bottom;
+    }
+
+    .under-14 {
+        text-decoration: underline;
+    }
+
+
     
 
 }

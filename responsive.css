@@ -565,4 +565,63 @@
     }
 
 
+    .position-setter-10 {
+        padding: 10px 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .position-setter-10 .font-size-title {
+        font-size: 14px;
+    }
+    
+    .logo-10 {
+        line-height: 60px;
+        height: 60px;
+        width: 60px;
+        font-size: 12px;
+    }
+
+    .in-white-box {
+        padding: 30px 30px;
+    }
+    
+    .in-white-box::before {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .in-white-box::after {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .thirdparties {
+        margin: 0 5px;
+    }
+    
+    .party-11 {
+        display: flex;
+        margin: 40px auto;
+    }
+    
+    .party-11 img {
+        height: 24%;
+        width: 24%;
+    }
+    
+    .party-intro-11 {
+        margin: 0 15px;
+        font-size: 16px;
+    }
+
+    .party-intro-11 p {
+        margin-top: 0;
+    }
+    
+    .name-11 {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
 }

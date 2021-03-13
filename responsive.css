@@ -378,5 +378,37 @@
         font-size: 10px;
     }
 
+    .text-5 .font-size-emp {
+        font-size: 13px;
+    }
+
+
+    .steps-5 {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .step-box {
+        padding: 0 37px 5px;
+        width: 85%;
+    }
+
+    .step-time {
+        margin-top: 16px;
+    }
+
+    .position-setter-6 .font-size-emp {
+        font-size: 12px;
+    }
+
+    .text-6 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+
+
 
 }

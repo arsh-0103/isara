@@ -599,7 +599,7 @@
     .thirdparties {
         margin: 0 5px;
     }
-    
+
     .party-11 {
         display: flex;
         margin: 40px auto;
@@ -623,5 +623,16 @@
         margin-top: 15px;
         font-size: 14px;
     }
+
+
+    .studies {
+        flex-direction: column;
+    }
+    
+    .study-box {
+        width: 96%;
+        margin: 0 auto 30px;
+    }
+    
 
 }

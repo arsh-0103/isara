@@ -582,7 +582,7 @@
     }
 
     .in-white-box {
-        padding: 30px 30px;
+        padding: 15px;
     }
     
     .in-white-box::before {
@@ -694,6 +694,107 @@
     .under-14 {
         text-decoration: underline;
     }
+
+
+    .back-15 {
+        padding: 20px 0;
+    }
+
+    .title-15 {
+        text-align: center;
+    }
+
+    .title-15 .font-size-title {
+        font-size: 24px;
+    }
+
+    .text-15 {
+        margin: 0 0 30px;
+    }
+    
+    .reason-15 {
+        margin: 0 50px;
+        text-align: left;
+    }
+    
+    .text-15 p {
+        padding:5px 0 ;
+    }
+    
+    .text-15 li {
+        padding: 8px;
+    }
+
+
+
+
+    .present-title {
+        margin-top: 40px;
+    }
+
+    .present-box {
+        margin: 0  10px;
+    }
+    
+    .present-line {
+        border: solid 2px white;
+        padding: 10px;
+        width: 94%;
+    }
+
+    .present-setter-16 {
+        display: none;
+    }
+
+    .present-icons-mobile {
+        padding: 10px 30px;
+    }
+    
+    .present-setter-16-mobile {
+        display: block;
+    }
+
+    .present-text-16-mobile {
+        display: flex
+    }
+
+    .sp-left-16 {
+        margin: 0 10px;
+    }
+
+    .sp-left-16 .font-size-emp {
+        font-size: 12px;
+    }
+
+    .speciality-16-mobile {
+        background-color: #fff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        line-height: 60px;
+        text-align: center;
+        color: #f7c23c;
+    }
+
+    .sp-right-16 {
+        margin:  auto 0  ;
+        padding: 0 30px;
+        vertical-align: middle;
+        color: #fff;
+    }
+
+    .text-17a {
+        padding: 30px 0 40px;
+    }
+
+    .text-17a .font-size-emp{
+        font-size: 12px;
+    }
+
+    .text-17b .font-size-emp{
+        font-size: 12px;
+    }
+
 
 
     

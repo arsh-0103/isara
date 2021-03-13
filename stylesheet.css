@@ -905,6 +905,10 @@ header {
     padding: 0 50px ;
 }
 
+.present-setter-16-mobile {
+    display: none;
+}
+
 .present-16 {
     background-color: #fff;
     width: 250px;

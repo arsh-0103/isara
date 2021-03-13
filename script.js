@@ -30,7 +30,7 @@ $(function(){
   $('.js-flow-icon-14').on('click',function(){
     $(this).next().slideToggle(200,);
     $(this).find('.fa-chevron-down').toggleClass('q-open');
-    $(this).find('.icon-text-14').toggleClass('under-14');
+
   });
 
 

@@ -796,6 +796,90 @@
     }
 
 
+    .position-setter-18 {
+        padding-bottom: 30px ;
+    }
+    
+    .text-18 {
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .someya-speach {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        margin: 0 auto;
+        width: 96%;        
+    }
+
+    .speach-img {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .speaching-18 {
+        width: 99%;
+        height: 99%;
+    
+    }
+    
+    .speach-log {
+        font-size: 14px;
+        font-weight: 100;
+        width: 100%;
+        margin: 0 ;
+        padding: 0 10px;
+    }
+
+
+    
+    
+    
+    .form-19 {
+        width: 92%;
+        margin: 10px auto 0;
+    }
+    
+    .form-19 input {
+        height: 55px;
+    }
+    
+    
+    .form-19 textarea {
+        height: 100px;
+        padding: 10px;
+        margin: 20px 0 ;
+    }
+    
+    input,  textarea {
+        font-family : inherit;
+        font-size : 100%;
+        }
+    
+    .btn-19 {
+        text-align: center;
+    }
+    
+    .submit-btn-19 {
+        padding: 10px 20px;
+        border-radius: 50px;
+        width: 94%;
+        margin: 20px 0 40px 0;
+    }
+
+
+    .base-20 {
+        padding: 40px 2%;
+    }
+
+    .question-title {
+        padding: 5px 10px ;
+    }
+    
+
+
+
 
     
 

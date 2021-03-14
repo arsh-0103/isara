@@ -32,6 +32,10 @@
         max-height: 100%;
     }
 
+    .title-awesome {
+        font-size: 24px;
+  }
+
 
     .back-1 {
         height: 500px;
@@ -75,6 +79,7 @@
         width: 300px;
         margin: 0 auto;
         padding: 0;
+        text-align: center;
     }
 
     .merit img{
@@ -95,26 +100,18 @@
     .founders-9 {
         display: flex;
         justify-content: center; 
-        flex-direction: column;
+        align-items: flex-start;
+        width: 92%;
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
     
     .member-9 {
-        width: 90%;
-        border: 3px solid white;
-        text-align: center;
-        padding: 40px 20px;
-        margin: 0px auto 200px;
-        height: 250px;
+        padding: 40px;
+        margin: 0 ;
     }
     
-    .member-img-9 img {
-        margin-top: -50px;
-        border-radius: 50%;  
-    }
     
-    .member-intro-9 {
-        margin: -50px 20px 0 ;
-    }
 
 
     .thirdparties {
@@ -144,6 +141,11 @@
     }
     
 
+    .flow-chain-14 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .text-15 {
         margin-left: 80px;
     }
@@ -157,11 +159,12 @@
     }
     
     .someya-speach {
-        display: flex;
-        justify-content: center; 
-        align-items: flex-start;
-        margin: 40px auto;
         width: 90%;
+    }
+
+    .scroll-point {
+        display: block;
+        margin-bottom: 10px;
     }
 
     .form-19 {
@@ -176,10 +179,9 @@
         color: #fff;
         font-size: 24px;
         font-weight: 600;
-        padding: 10px 30%;
-        border-radius: 50px;
-        border: none;
-        margin: 40px 0 60px 0;
+        padding: 10px ;
+        width: 70%;
+        margin: 40px auto 60px ;
     }
     
     .base-20 {
@@ -188,9 +190,7 @@
 
 }
 
-@media only screen and (max-width: 1000px) {
-
-
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
 
     .merits-8 {
         display: flex;
@@ -214,7 +214,7 @@
     }
 
     .present-line {
-        width: 60%;
+        width: 90%;
     }
 
     .present-icons {
@@ -225,14 +225,98 @@
     }
 
     .present-setter-16 {
-        padding: 50px ;
+        padding: 30px ;
     }
+
+    .present-text-16 {
+        top: 60px;
+    }
+
+
+    .position-setter-18 {
+        padding-bottom: 30px ;
+    }
+    
+    .text-18 {
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .someya-speach {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        width: auto;        
+    }
+
+    .speach-img img{
+        width: auto;
+        text-align: center;
+        height: auto;
+        margin: 5px  ;
+        padding: 10px 10%;
+    }
+    
+    .speaching-18 {
+        width: 99%;
+        height: 99%;
+        margin: 10px auto;
+    }
+    
+    .speach-log {
+        font-size: 14px;
+        font-weight: 100;
+        width: 100%;
+        margin: 0 ;
+        padding: 0 10px;
+    }
+
+    .someya-speach .speach-log {
+        text-align: left;
+    }
+
+    .scroll-point {
+        display: block;
+        margin-bottom: 10px;
+    }
+
 }
 
 
 @media screen and (max-width: 768px) {
 
+    .back-1 {
+        height: 500px;
+        background-image: url(../isara/img/mainsp.jpg);
+    }
+
+    .back-5 {
+        background-image: url(../isara/img/aboutsecondbgsp.jpg);
+    }
+
+    .back-9 {
+        background-image: url(../isara/img/teacherbgsp.jpg);    
+    }
+
+    .back-12 {
+        background-image: url(../isara/img/classbgsp.jpg);
+    }
+
+    .back-15 {
+        background-image: url(../isara/img/bangkokbgsp.jpg);
+    }
+
+    .back-17 {
+        background-image: url(../isara/img/specialdetailsp.jpg);
+    }
+
     *{box-sizing: border-box;}
+
+    .title-awesome {
+        font-size: 18px;
+  }
 
 
     .font-size-title {
@@ -488,13 +572,29 @@
     }
 
 
-
     .merits-8 {
-        width: 95%;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .merit {
+        width: 100%;
+        text-align: center;
     }
 
     .merit p {
-        margin:10px ;
+        padding: 0 20p;
+    }
+
+    .topics-8 {
+        margin:  10px;
+    }
+
+    .merit .font-size-emp {
+        font-size: 16px;
     }
 
     .merit img{
@@ -523,6 +623,13 @@
         background-size: cover;
     }
 
+    
+
+    .support-box {
+        width: 95%;
+        padding: 10px 10px 15px;
+    }
+
 
     .text-9 {
         margin: 0 0 20px;
@@ -536,32 +643,27 @@
         flex-direction: column;
         padding-bottom: 30px;
     }
+
+    .member-set-9 {
+        padding: 0 15px 40px;
+        width: 98%;
+        margin: 0 auto;
+    }
     
     .member-9 {
-        width: 98%;
-        padding: 15px 10px 10px;
-        margin: 120px auto 0;
-        height: 180px;
-        position: relative;
+        border: 3px solid white;
+        padding: 30px 10px 10px;
+        text-align: center;
     }
 
     .member-img-9 {
-        position: absolute;
-        bottom: 155px;
-        left: 50%;
-        transform: translateX(-50%);
         width: 120px;
         height: 120px;
     }
-    
+
     .member-img-9 img {
-        border-radius: 50%;
         width: 120px;
-        height: 120px;  
-    }
-    
-    .member-intro-9 {
-        margin: 20px 20px 0 ;
+        height: 120px;
     }
 
 
@@ -579,6 +681,7 @@
         height: 60px;
         width: 60px;
         font-size: 12px;
+        margin: 20px auto;
     }
 
     .in-white-box {
@@ -647,7 +750,6 @@
         padding: 5px 10px;
     }
 
-    .flow-intro
     
     .flow-icon-14 {
         display: flex;
@@ -658,6 +760,11 @@
     .flow-left {
         display: flex;
         align-items: center;
+        width: auto;
+    }
+
+    .flow-left .font-size-emp {
+        font-size: 15px;
     }
     
     .icon-position {
@@ -685,6 +792,10 @@
 
     .br-pc {
         display: none;
+    }
+
+    .flow-right {
+        display: block;
     }
 
     .flow-right .fa-chevron-down {
@@ -796,6 +907,7 @@
     }
 
 
+
     .position-setter-18 {
         padding-bottom: 30px ;
     }
@@ -821,7 +933,6 @@
     .speaching-18 {
         width: 99%;
         height: 99%;
-    
     }
     
     .speach-log {
@@ -832,7 +943,10 @@
         padding: 0 10px;
     }
 
-
+    .scroll-point {
+        display: block;
+        margin-bottom: 10px;
+    }
     
     
     
@@ -878,9 +992,81 @@
     }
     
 
+    .text-footer {
+        padding: 10px 0 0 0;
+    }
+    
+    .under-footer {
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
 
-
+    footer .sns-btns {
+        padding-bottom: 20px;
+    }
 
     
 
+}
+
+
+@media only screen  and (max-width: 500px) {
+
+    .font-size-title {
+        font-size: 18px;
+    }
+
+    .font-size-emp {
+        font-size: 12px;
+    }
+
+    .br-min {
+        display: block;
+    }
+
+    .text-2a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .icons-7 {
+        padding: 0 20px;
+        margin: 0 10px;
+    }
+
+    .learn-icon {
+        padding: 7px;
+    }
+
+    .speach-log {
+        font-size: 12px;
+        font-weight: 100;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .scroll-point {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .present-icons-mobile {
+        padding: 10px 0px;
+    }
+
+    .q-title-right {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+}
+
+@media only screen  and (max-width: 330px) {
+
+    .skills {
+        padding: 10px 0;
+    }
 }

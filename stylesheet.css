@@ -51,6 +51,13 @@ body {
     font-weight: 600;
 }
 
+.title-awesome {
+      font-size: 28px;
+}
+
+.letter-space {
+    letter-spacing: 0.1em;
+}
 
 #scroll-btn {
     cursor: pointer;
@@ -63,6 +70,7 @@ body {
     display: none;
     text-align: center;
     line-height: 50px;
+    z-index: 10;
 }
 
 
@@ -72,6 +80,10 @@ body {
 
 .fa-angle-up {
     font-size: 30px;
+}
+
+.br-min {
+    display: none;
 }
 
 
@@ -86,8 +98,8 @@ header {
 }
 
 .header-contents {
-    margin: 5px auto 5px;
-    width: 77%;
+    margin: 2px auto;
+    width: 1170px;
     display: flex;
     justify-content: space-between;
 }
@@ -98,6 +110,10 @@ header {
     font-weight: 600;
 }
 
+.header-text p {
+    margin:16px 6px;
+}
+
 .left-side {
     display:flex;
     
@@ -105,6 +121,7 @@ header {
 
 .header-logo img {
     width: 128px;
+    margin-top: 3px;
 }
 
 .contact-btn :hover {
@@ -114,9 +131,9 @@ header {
 .contact-btn {
     color: white;
     cursor: pointer;
-    padding: 12px 40px;
+    padding: 11px 35px;
     border-radius: 25px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 .contact-btn p {
@@ -222,6 +239,10 @@ header {
    justify-content: center; 
    align-items: flex-start;
    position: relative;
+}
+
+.tweet-btn {
+    margin-right: 5px;
 }
 
 .sns-btns-2{
@@ -445,12 +466,12 @@ header {
 }
 
 .learn-icon {
-    padding:  30px;
+    padding:  20px;
 }
 
 .learn-icon img {
-    height: 170px;
-    width: 170px;
+    height: 180px;
+    width: 180px;
 }
 
 .under-text-7 {
@@ -481,7 +502,6 @@ header {
 .merit {
     margin: 0 auto;
     padding: 20px ;
-    text-align: center;
 }
 
 .merit img{
@@ -537,7 +557,7 @@ header {
 
 .text-9 {
     text-align: center;
-    margin: 0 auto 0px;
+    margin: 0 auto;
     padding-top: 60px;
     font-weight: 600;
 }
@@ -556,27 +576,30 @@ header {
     align-items: flex-start;
 }
 
+.member-set-9 {
+    padding: 0 15px 40px;
+    width: 360px;
+}
+
+
 .member-9 {
-    width: 350px;
     border: 3px solid white;
-    height: 450px;
+    padding: 40px;
     text-align: center;
-    margin: 0px 20px 40px;
 }
 
 .member-img-9 {
     width: 200px;
     height: 200px;
-    margin: -160px auto 0px ;
+    margin: 0 auto;
+    position: relative;
+    bottom: -40px;
 }
 
 .member-img-9 img {
     border-radius: 50%; 
 }
 
-.member-intro-9 {
-    margin: 20px;
-}
 
 .text-left-path {
     text-align: left;
@@ -618,7 +641,7 @@ header {
     position: relative;
     width: 860px;
     max-width: calc(100% - 40px);
-    padding: 15px 30px;
+    padding: 20px 30px;
 }
 
 .in-white-box::before {
@@ -793,6 +816,14 @@ header {
     padding: 10px 35px;
 }
 
+.flow-left {
+    width: 200px;
+}
+
+.flow-left .font-size-emp {
+    font-size: 18px;
+}
+
 .flow-icon-14 {
     text-align: center;
 }
@@ -810,7 +841,7 @@ header {
 }
 
 .flow-text-14 {
-    margin-left: 20px;
+    padding-top: 5px;
 }
 
 .flow-icon-14 {
@@ -819,6 +850,10 @@ header {
 
 .flow-chain-14 {
     text-align: center;
+}
+
+.flow-right {
+    display: none;
 }
 
 
@@ -920,13 +955,23 @@ header {
 
 .present-text-16 {
     position: absolute;
-    top: 30px;
+    top: 50px;
     width: 230px;
-    left: 12px;
+    left: 10px;
+}
+
+.present-text-16 .font-size-small {
+    font-size: 14px;
+}
+
+.present-text-16 .font-size-emp {
+    font-size: 24px;
+    font-weight: 300;
 }
 
 .speciality-16 {
     color: #ebb94d;
+    margin: 0;
 }
 
 
@@ -954,6 +999,11 @@ header {
 }
 
 
+.scroll-point {
+    display: block;
+    margin-bottom: 70px;
+}
+
 
 .position-setter-18 {
     margin-top: -20px;
@@ -968,7 +1018,8 @@ header {
     display: flex;
     justify-content: center; 
     align-items: flex-start;
-    margin: 40px auto;
+    padding-bottom: 10px;
+    margin: 30px auto;
     width: 75%;
 }
 
@@ -992,6 +1043,10 @@ header {
 }
 
 
+.free-offer p {
+    margin:10px 0 40px ;
+}
+
 .position-setter-19 {
     text-align: center;
     font-weight: 600;
@@ -1001,12 +1056,12 @@ header {
 .form-19 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 60%;
     margin: 10px auto 0;
 }
 
 .form-19 input {
-    width: 100%;
     height: 35px;
     border-radius: 5px;
     padding: 10px;
@@ -1020,7 +1075,6 @@ header {
 }
 
 .form-19 textarea {
-    width: 100%;
     height: 85px;
     border-radius: 5px;
     padding: 10px;
@@ -1040,16 +1094,18 @@ input,  textarea {
 
 .btn-19 {
     text-align: center;
+    margin: 0 auto;
 }
 
 .submit-btn-19 {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
-    padding: 10px 400px;
+    padding: 10px ;
     border-radius: 50px;
     border: none;
-    margin: 40px 0 60px 0;
+    margin: 20px auto 70px ;
+    width: 62%;
 }
 
 
@@ -1062,16 +1118,15 @@ input,  textarea {
 .title-20 {
     display: flex;
     justify-content: center; 
+    align-items: center;
 }
 
-
-
-.fa-envelope-open {
-    margin-top: 28px;
-    margin-right: 5px;
-    text-decoration: none;
+.t-a-20 {
     color: black;
 }
+
+
+
 
 .question-board {
     margin: 5px 0;
@@ -1136,7 +1191,7 @@ footer a {
 
 
 .back-f {
-    background-color: #e5e5e5;
+    background-color: #ececec;
 }
 
 .text-footer {

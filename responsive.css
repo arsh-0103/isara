@@ -110,6 +110,10 @@
         padding: 40px;
         margin: 0 ;
     }
+
+    .logo-10 {
+        font-size: 20px;
+    }
     
     
 
@@ -159,13 +163,9 @@
     }
     
     .someya-speach {
-        width: 90%;
+        width: 98%;
     }
 
-    .scroll-point {
-        display: block;
-        margin-bottom: 10px;
-    }
 
     .form-19 {
         width: 70%;
@@ -173,6 +173,18 @@
 
     .form-19 input {
         padding: 25px;
+    }
+
+    .form-19 textarea {
+        height: 100px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+        border-color: #ebb94d;
+        font-weight: 300;
     }
 
     .submit-btn-19 {
@@ -183,6 +195,8 @@
         width: 70%;
         margin: 40px auto 60px ;
     }
+
+
     
     .base-20 {
         padding: 40px 5.5%;
@@ -340,20 +354,14 @@
 
 
 
-    #scroll-btn {
+    .scroll-top {
         bottom: 20px;
         right: 15px;
-        height: 50px;
-        width: 45px;
-        line-height: 0px;
+        padding: 16px 18px;
     }
 
-    #scroll-btn p {
-        margin: 14px 0 0;
-    }
-
-    .fa-angle-up {
-        font-size: 22px;
+    .fa-chevron-up {
+        font-size: 16px;
     }
 
 
@@ -538,7 +546,7 @@
 
     .step-box {
         padding: 0 37px 5px;
-        width: 85%;
+        width: 90%;
     }
 
     .step-time {
@@ -632,7 +640,7 @@
 
 
     .text-9 {
-        margin: 0 0 20px;
+        margin: 0;
         padding-top: 10px;
     }
 
@@ -645,7 +653,7 @@
     }
 
     .member-set-9 {
-        padding: 0 15px 40px;
+        padding: 0 15px 0px;
         width: 98%;
         margin: 0 auto;
     }
@@ -922,7 +930,7 @@
         justify-content: center; 
         flex-direction: column;
         margin: 0 auto;
-        width: 96%;        
+        width: 100%;        
     }
 
     .speach-img {
@@ -945,7 +953,7 @@
 
     .scroll-point {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     
     
@@ -1029,6 +1037,10 @@
         font-weight: 500;
     }
 
+    .slider-btn p {
+        margin: 18px 5px;
+    }
+
     .icons-7 {
         padding: 0 20px;
         margin: 0 10px;
@@ -1036,6 +1048,22 @@
 
     .learn-icon {
         padding: 7px;
+    }
+
+    .party-intro-11  {
+        font-size: 14px;
+    }
+
+    .party-intro-1 .name-11 {
+        font-size: 12px;
+    }
+
+    .present-title {
+        width: 250px;
+    }
+
+    .present-title .font-size-title {
+        font-size: 16px;
     }
 
     .speach-log {
@@ -1064,9 +1092,12 @@
     }
 }
 
+
 @media only screen  and (max-width: 330px) {
 
     .skills {
         padding: 10px 0;
     }
+
+
 }

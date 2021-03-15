@@ -857,7 +857,7 @@
     
     .present-line {
         border: solid 2px white;
-        padding: 10px;
+        padding: 30px;
         width: 94%;
     }
 
@@ -866,7 +866,7 @@
     }
 
     .present-icons-mobile {
-        padding: 10px 30px;
+        padding: 5px;
     }
     
     .present-setter-16-mobile {
@@ -874,11 +874,12 @@
     }
 
     .present-text-16-mobile {
-        display: flex
+        display: flex;
     }
 
     .sp-left-16 {
-        margin: 0 10px;
+        padding: 0 8%;
+
     }
 
     .sp-left-16 .font-size-emp {
@@ -897,7 +898,6 @@
 
     .sp-right-16 {
         margin:  auto 0  ;
-        padding: 0 30px;
         vertical-align: middle;
         color: #fff;
     }
@@ -1092,11 +1092,24 @@
     }
 }
 
+@media only screen  and (max-width: 400px) {
+    .sp-left-16 {
+        padding: 0 5%;
+
+    }
+
+}
+
 
 @media only screen  and (max-width: 330px) {
 
     .skills {
         padding: 10px 0;
+    }
+
+    .sp-left-16 {
+        padding: 0 3%;
+
     }
 
 
